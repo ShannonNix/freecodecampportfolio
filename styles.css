@@ -61,6 +61,7 @@ li {
 .flex-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 h1 {
@@ -72,8 +73,8 @@ h1 {
 }
 
 p {
-  color: #be3144;
-  font-size: 58px;
+  color: white;
+  font-size: 20px;
   font-family: poppins, san-serif;
   font-style: italic;
   margin-top: 2px;
@@ -81,6 +82,7 @@ p {
 
 h2 {
   color: white;
+  text-align: center;
   font-size: 25px;
   font-family: poppins, sans-serif;
 }
@@ -97,12 +99,6 @@ h2 {
   background-color: #45567d;
   margin-top: 0px;
   padding-top: 0px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .contact-section {
